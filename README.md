@@ -18,15 +18,15 @@ To run this project locally:
 
 1. Clone the repository to your local machine:
 
-   
+   ```bash   
    git clone https://github.com/Shinan007/spotify-clone.git
-   
+   ```
 
 2. Navigate to the project folder:
 
-
+   ```bash
    cd spotify-clone
-
+   ```
 3. Open the `index.html` file in your favorite code editor (e.g., Visual Studio Code).
 
 4. You can preview the project by opening `index.html` in your web browser.
@@ -42,11 +42,12 @@ Contributors are welcome! If you'd like to contribute to this project by adding 
 1. Fork the project to your GitHub account.
 2. Create a new branch for your contributions:
 
-   git checkout -b feature/Shinan007
-
-3. Make your changes and commit them with descriptive messages.
-4. Push your changes to your forked repository.
-5. Create a pull request to merge your changes into the main project.
+   ```bash
+   git checkout -b feature/Sharad Chauhan
+   ```
+4. Make your changes and commit them with descriptive messages.
+5. Push your changes to your forked repository.
+6. Create a pull request to merge your changes into the main project.
 
 ## License
 
