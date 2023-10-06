@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: #000;
+}
+main{
+    display: flex;
+    height: 100vh;
+}
+.left, .right{
+    width: 370px;
+    border-radius: 15px;
+    margin: .7rem;
+}
+.right{
+    flex: 1;
+    overflow: hidden;
+    background-color: #121212;
+    overflow: auto;
+}
+.player{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: none;
+}
+/* Home Styling */
+.home{
+    background-color: #121212;
+    border-radius: 15px;
+    height: 10%;
+    padding: .6rem;
+}
+.nav{
+    margin: .8rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.nav a{
+    color: #b3b3b3;
+    margin-left: 15px;
+}
+.nav a:hover{
+    color: white;
+}
+/* Library Styling */
+.library{
+    height: 80vh;
+    background-color: #121212;
+    border-radius: 15px;
+    margin: 1rem 0;
+    padding: .6rem;
+}
+.library .nav img{
+    font-size: 1.2rem;
+    width: 1.2rem;
+} 
+.library span{
+    margin: 0 0 0 25%;
+}
+.library .nav i{
+    margin: 0 .5rem;
+    color: #b3b3b3;
+}
+/* Styling PlayList and Postcard Box */
+.playlist, .podcast{
+    height: 22%;
+    border-radius: 15px;
+    background-color: #262525;
+    margin: 1.5rem 0;
+    padding: 1rem;
+}
+.playlist .top , .podcast .top{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+.playlist .text , .podcast .text{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 0.5rem;
+}
+.capsule{
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    border: none;
+}
+.podcast{
+    height: 29%;
+}
+
+/* Right Section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    position: sticky;
+    top: 0;
+}
+.navbar div{
+    margin: 0 1rem;
+}
+.navbar .fa-user{
+    font-size: 25px;
+    margin-right: 1.5rem;
+}
+.app{
+    background-color: #000;
+    color: white;
+    margin-right: 2rem;
+}
+/* Stlyling Cards */
+section{
+    margin: 1rem;
+    padding: 1rem;
+}
+section h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 510;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+.cards{
+    width: 170px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #262525;
+    padding: 1rem;
+    margin: 1rem 0 0 1.5rem;
+}
+.img-can{
+    height: 60%;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.img-can img{
+    height: 100%;
+    width: 100%;
+}
+
+.text-can .title{
+    font-size: 1.2rem;
+    font-weight: 510;
+    margin: 0.8rem 0;
+}
+.text-can .subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+    color: #b3b3b3;
+}
