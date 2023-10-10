@@ -304,3 +304,8 @@ section h2{
     border-radius: 100px;
     margin-top: -7px;
 }
+@media(max-width:1300px){
+    .right-sec{
+        display: none;
+    }
+}
